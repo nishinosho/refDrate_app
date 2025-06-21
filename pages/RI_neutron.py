@@ -72,9 +72,9 @@ src = "Cf"
 with col1:
     st.markdown("速中性子場の基準フルエンスを計算します。基準量を計算したい日と照射距離を入力してください。")
     st.latex(r'''
-        \begin{equation}
+        \begin{equation*}
             \phi = \frac{A}{4\pi D^{2}} \cdot F_{90} \cdot \exp{(-\Sigma l)}
-         \end{equation}
+         \end{equation*}
     ''')
     
     t_ = st.date_input('基準算定日', dt.datetime.today())
